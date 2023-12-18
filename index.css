@@ -1,0 +1,559 @@
+/* body */
+
+body {
+    margin: -1px;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    letter-spacing: 0.3rem;
+    /* line-height: 1.6; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+/* body */
+
+/* header */
+
+header {
+    margin: 5% 25% 3% 25%;
+    color: #d4af37;
+    border: 5px solid #d4af37;
+    border-radius: 0% 50%;
+    border-style: groove;
+    width: 50%;
+    background-color: #981515;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.7rem;
+    letter-spacing: 1.1rem;
+    margin: 0%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+/* header */
+
+/* see options button */
+
+h4 {
+    background-color: #fff;
+    border: 3px solid #981515;
+    color: #981515;
+    width: 10%;
+    height: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    padding: 3px;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+h4:hover {
+    background-color: #981515;
+    color: #fff;
+}
+
+/* see options button */
+
+/* navBar */
+
+.navLinks {
+    display: flex;
+    gap: 1%;
+    background-color: #fff;
+    border-bottom: 3px solid #981515;
+    position: fixed;
+    width: 100%;
+    height: 1.6%;
+    top: 0;
+    margin: 0;
+    padding: 0.4% 1%;
+    list-style: none;
+}
+
+.navTitle {
+    font-size: 1.2rem;
+    /* border: 2px solid #981515;
+    background-color: #981515; */
+    border-radius: 5% 5% 0% 0%;
+    color: #981515;
+}
+
+#Brush {
+    padding: 0% 24.4%;
+}
+
+#Frame {
+    padding: 0% 14%;
+}
+
+#Paint {
+    padding: 0% 33.2%;
+}
+
+.navTitle:hover {
+    border: 2px solid #981515;
+    background-color: #981515;
+    color: #fff;
+}
+
+.navLinks a {
+    text-decoration: none;
+}
+
+#submenu {
+    width: 100%;
+    list-style: none;
+    background-color: #fff;
+    margin-top: 0.7%;
+    padding: 0%;
+    border: 2px solid #981515;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#submenu a {
+    display: flex;
+    color: #981515;
+    background-color: #fff;
+    padding: 0.5%;
+    font-size: 1rem;
+    cursor: default;
+}
+
+#submenu a:hover {
+    color: #fff;
+    background-color: #981515;
+    cursor: pointer;
+}
+
+li:hover ul#submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#personal {
+    position: absolute;
+    right: 3%;
+    /* border: 3px solid #981515; */
+    width: 16%;
+}
+
+#personal a {
+    margin: 0% 6%;
+    padding: 0% 2%;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+#personal a:hover {
+    text-decoration: underline;
+}
+
+/* navBar */
+
+/* brushes */
+
+#brushes {
+    /* border-top: 3px solid #981515;
+    border-bottom: 3px solid #981515; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+    scroll-margin-top: 34px;
+    /* border-radius: 1%; */
+}
+
+.brushesHeader {
+    background-color: #981515;
+    width: 100%;
+    /* border-top: 3px solid #981515;
+    border-bottom: 3px solid #981515; */
+}
+
+.brushesHeader h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: auto;
+    color: #fff;
+}
+
+.brushesCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* hacksaw content */
+
+.hacksawText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+}
+
+.hacksawText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.hacksawText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.hacksawText strong {
+    text-decoration: underline;
+}
+
+.hacksawImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    max-width: 25%;
+    /* margin-bottom: 2%; */
+}
+
+.hacksawImg img{
+    max-width: 100%;
+    display: block;
+}
+
+/* hacksaw content */
+
+/* acrylic content */
+
+.acrylicText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+    scroll-margin-top: 32px;
+}
+
+.acrylicText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+
+.acrylicText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.acrylicText strong {
+    text-decoration: underline;
+}
+
+.acrylicImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    max-width: 25%;
+    /* margin-bottom: 2%; */
+}
+
+.acrylicImg img{
+    max-width: 100%;
+    display: block;
+}
+
+/* acrylic content */
+
+/* brushes */
+
+/* frames */
+
+#frames {
+    /* border-bottom: 3px solid #981515; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+    scroll-margin-top: 33px;
+    /* border-radius: 1%; */
+}
+
+.framesHeader {
+    background-color: #981515;
+    width: 100%;
+    /* border-radius: 1%; */
+    /* border-top: 3px solid #981515;
+    border-bottom: 3px solid #981515; */
+}
+
+.framesHeader h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: auto;
+    color: #fff;
+}
+
+.framesCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.framesText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+}
+
+.framesText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.framesText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.framesText strong {
+    text-decoration: underline;
+}
+
+.customFrame {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.customFrameText {
+    font-weight: bold;
+}
+
+.framesImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    /* margin-bottom: 2%; */
+}
+
+.framesImg img{
+    width: 100%;
+    display: block;
+}
+
+/* frames */
+
+/* paints */
+
+#paints {
+    /* border-bottom: 3px solid #981515; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+    scroll-margin-top: 33px;
+    /* border-radius: 1%; */
+}
+
+.paintsHeader {
+    background-color: #981515;
+    width: 100%;
+    /* border-radius: 1%; */
+    /* border-bottom: 3px solid #981515; */
+}
+
+.paintsHeader h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: auto;
+    color: #fff;
+}
+
+.paintsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* finnish paint */
+
+.finnishPaintText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+}
+
+.finnishPaintText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.finnishPaintText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.paintsText strong {
+    text-decoration: underline;
+}
+
+.finnishPaintImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    max-width: 25%;
+}
+
+.finnishPaintImg img{
+    max-width: 100%;
+    display: block;
+}
+
+/* finnish paint */
+
+/* oil paint */
+
+.oilPaintText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+    scroll-margin-top: 32px;
+}
+
+.oilPaintText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+
+.oilPaintText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.paintsText strong {
+    text-decoration: underline;
+}
+
+.oilPaintImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    max-width: 25%;
+    /* margin-bottom: 2%; */
+}
+
+.oilPaintImg img{
+    max-width: 100%;
+    display: block;
+}
+
+/* oil paint */
+
+/* watercolor paint */
+
+.watercolorPaintText {
+    /* border: 3px solid #000; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2% 5%;
+}
+
+.watercolorPaintText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+
+.watercolorPaintText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+.paintsText strong {
+    text-decoration: underline;
+}
+
+.watercolorPaintImg {
+    border: 3px solid #981515;
+    border-radius: 1%;
+    max-width: 25%;
+    /* margin-bottom: 2%; */
+}
+
+.watercolorPaintImg img{
+    max-width: 100%;
+    display: block;
+}
+
+/* watercolor paint */
+
+/* paints */
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0% 1%;
+    font-size: 0.9rem;
+}
+
+.leftFooter {
+    text-align: left;
+}
+
+.rightFooter {
+    text-align: right;
+}
+
+.rightFooter a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+.rightFooter a:hover {
+    color: #981515;
+}
+
+/* footer */

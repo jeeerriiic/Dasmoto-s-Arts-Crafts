@@ -1,0 +1,31 @@
+√create nav bar with anchors to brushes, frames, and paints
+
+√Acrylic Brushes
+Made of synthetic materials like taklon, nylon, polyester, and synthetic sable. Acrylic brushes are extremely soft and can hold a lot of paint. Sets include Angle, Wash, Fan, Round, Filbert, Liner, and Bright brushes. <strong>Available in different sets. Starting at $3.00</strong>
+
+√add on to framing <p> tag
+Custom framing available
+Pricing based on the size of your price
+
+√Oil Paint
+Oil paint is a type of slow-drying paint that consists of particles of pigment suspended in a drying oil, commonly linseed oil. <strong>Available in sets and tubes. Sets starting at $12.00 and tubes starting at $6.00.</strong>
+
+√Watercolor
+Watercolor is a water-soluble paint that has transparent or translucent properties. <strong>Available in sets and tubes. Sets starting at $10.00 and tubes starting at $4.00.</strong>
+
+√create contact footer
+
+right side
+created by Jeric Miranda
+jericsmir@gmail.com
+
+left side
+Codecademy Dasmoto Project
+
+√create dropdown hover menu on nav bar
+
+brushes: hacksaw brushes and acrylic brushes
+frames: art frames and custom framing
+paint: clean finnish paint, oil paint, and watercolor
+
+√add the log in and sign up buttons to the navbar
